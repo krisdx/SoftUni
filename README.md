@@ -6,6 +6,6 @@ Labels:
 
 [EX] - Exercise
 
-[EXAM] - exam
+[LAB] - Difficult exercise with described steps for solving the problem
 
-[LAB] - Difficult Exercise
+[EXAM] - Exam
