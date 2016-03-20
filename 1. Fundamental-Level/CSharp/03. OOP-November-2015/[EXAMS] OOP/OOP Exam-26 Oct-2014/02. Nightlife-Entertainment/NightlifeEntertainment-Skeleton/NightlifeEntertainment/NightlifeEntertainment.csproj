@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F490BDCE-7100-487E-B95D-7E999ED4F880}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NightlifeEntertainment</RootNamespace>
+    <AssemblyName>NightlifeEntertainment</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Engine\ExtendedCinemaEngine.cs" />
+    <Compile Include="Performances\Concert.cs" />
+    <Compile Include="Performances\Theatre.cs" />
+    <Compile Include="Tickets\StudentTicket.cs" />
+    <Compile Include="Tickets\VipTicket.cs" />
+    <Compile Include="Venues\Cinema.cs" />
+    <Compile Include="Engine\CinemaEngine.cs" />
+    <Compile Include="Interfaces\IPerformance.cs" />
+    <Compile Include="Interfaces\ITicket.cs" />
+    <Compile Include="Interfaces\IVenue.cs" />
+    <Compile Include="Performances\Movie.cs" />
+    <Compile Include="NightlifeEntertainmentProgram.cs" />
+    <Compile Include="Performances\Performance.cs" />
+    <Compile Include="Performances\PerformanceType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tickets\RegularTicket.cs" />
+    <Compile Include="Tickets\Ticket.cs" />
+    <Compile Include="Tickets\TicketStatus.cs" />
+    <Compile Include="Tickets\TicketType.cs" />
+    <Compile Include="Venues\ConcertHall.cs" />
+    <Compile Include="Venues\OperaHall.cs" />
+    <Compile Include="Venues\SportHall.cs" />
+    <Compile Include="Venues\Venue.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

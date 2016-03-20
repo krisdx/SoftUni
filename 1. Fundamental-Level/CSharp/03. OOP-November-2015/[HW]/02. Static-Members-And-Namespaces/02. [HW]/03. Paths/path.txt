@@ -1,0 +1,4 @@
+Path:
+point1: x=0 y=5 z=1
+point2: x=-3 y=20 z=0
+
