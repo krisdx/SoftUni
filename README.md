@@ -6,6 +6,8 @@ Labels:
 
 [EX] - Exercise
 
+[DEMO] - Source code examples for the given lecture.
+
 [LAB] - Difficult exercise with described steps for solving the problem
 
 [EXAM] - Exam
