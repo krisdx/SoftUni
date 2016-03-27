@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Count-Symbols", "02. CountSymbols\02. Count-Symbols.csproj", "{6A7CDC7D-A4A7-40B0-86B5-3C5EDFF8F70C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Phonebook", "03. PhoneBook\03. Phonebook.csproj", "{8EFCD033-4B0E-49CA-BE5E-6F15D1EF9E56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. OrderedSet", "04. OrderedSet\04. OrderedSet.csproj", "{77BE8528-1638-4388-99C6-D4C5819FED7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomDictionary", "Dictionary\CustomDictionary.csproj", "{37583F6F-A69D-4324-8D69-4840DAF99440}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A7CDC7D-A4A7-40B0-86B5-3C5EDFF8F70C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7CDC7D-A4A7-40B0-86B5-3C5EDFF8F70C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7CDC7D-A4A7-40B0-86B5-3C5EDFF8F70C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7CDC7D-A4A7-40B0-86B5-3C5EDFF8F70C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EFCD033-4B0E-49CA-BE5E-6F15D1EF9E56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EFCD033-4B0E-49CA-BE5E-6F15D1EF9E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EFCD033-4B0E-49CA-BE5E-6F15D1EF9E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EFCD033-4B0E-49CA-BE5E-6F15D1EF9E56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77BE8528-1638-4388-99C6-D4C5819FED7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77BE8528-1638-4388-99C6-D4C5819FED7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77BE8528-1638-4388-99C6-D4C5819FED7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77BE8528-1638-4388-99C6-D4C5819FED7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37583F6F-A69D-4324-8D69-4840DAF99440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37583F6F-A69D-4324-8D69-4840DAF99440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37583F6F-A69D-4324-8D69-4840DAF99440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37583F6F-A69D-4324-8D69-4840DAF99440}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

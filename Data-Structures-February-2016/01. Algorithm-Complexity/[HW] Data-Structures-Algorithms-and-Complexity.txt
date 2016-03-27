@@ -1,0 +1,86 @@
+**********************************************************************************
+
+public class StupidList<T>
+{
+    private T[] arr = new T[0];
+
+    public int Length
+    {
+        get
+        {
+            return this.arr.Length;
+        }
+    }
+
+    public T this[int index]
+    {
+        get
+        {
+            return this.arr[index];
+        }
+    }
+
+    public T First
+    {
+        get
+        {
+            return this.arr[0];
+        }
+    }
+
+    public T Last
+    {
+        get
+        {
+            return this.arr[this.arr.Length - 1];
+        }
+    }
+
+    public void Add(T item)
+    {
+        var newArr = new T[this.arr.Length + 1];
+        Array.Copy(this.arr, newArr, this.arr.Length);
+        newArr[newArr.Length - 1] = item;
+        this.arr = newArr;
+    }
+
+    public T Remove(int index)
+    {
+        T result = this.arr[index];
+        var newArr = new T[this.arr.Length - 1];
+        Array.Copy(this.arr, newArr, index);
+        Array.Copy(this.arr, index + 1, newArr, index, this.arr.Length - index - 1);
+        this.arr = newArr;
+        return result;
+    }
+
+    public T RemoveFirst()
+    {
+        return this.Remove(0);
+    }
+
+    public T RemoveLast()
+    {
+        return this.Remove(this.Length - 1);
+    }
+}
+
+**********************************************************************************
+
+1. Add(T) Complexity: O(n), because every time we're coping all the elements in a new array. The correct way would be to copy the elements only when the array is full, and that will be amortized O(1).
+
+2,3,4. Remove(index) Complexity:
+Worst case, Best case, Average case - O(n):
+Because every time we're removing an element, we have to move the elements after the removed element to the left. There's no way to avoid that. Removing elements in array/list is a slow operation.
+
+5. RemoveFirst(T) Complexity: O(n) - it calls the Remove(index) method, witch is O(n).
+
+6. RemoveLast(T) Complexity: O(n)- it calls the Remove(index) method, witch is O(n).
+
+7. Length Complexity: Constant O(1) - We're returning the array length, which is exactly one operation, every time.
+
+8. This[index] Complexity: Constant O(1).
+
+9. First() Complexity: Constant O(1).
+
+10. Last() Complexity: Constant O(1).

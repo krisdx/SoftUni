@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvlTree", "AvlTree\AvlTree.csproj", "{BA5FB9D9-81B6-481F-8B12-17FCF8447569}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Range-In-Tree", "02. Range-In-Tree\02. Range-In-Tree.csproj", "{94D02427-C430-4E01-80F1-A12ADFB5C0F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Tree-Indexing", "03. Tree-Indexing\03. Tree-Indexing.csproj", "{BF26F9BD-3139-4172-A33C-5578FF9CB9A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA5FB9D9-81B6-481F-8B12-17FCF8447569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA5FB9D9-81B6-481F-8B12-17FCF8447569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA5FB9D9-81B6-481F-8B12-17FCF8447569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA5FB9D9-81B6-481F-8B12-17FCF8447569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94D02427-C430-4E01-80F1-A12ADFB5C0F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D02427-C430-4E01-80F1-A12ADFB5C0F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D02427-C430-4E01-80F1-A12ADFB5C0F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D02427-C430-4E01-80F1-A12ADFB5C0F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF26F9BD-3139-4172-A33C-5578FF9CB9A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF26F9BD-3139-4172-A33C-5578FF9CB9A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF26F9BD-3139-4172-A33C-5578FF9CB9A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF26F9BD-3139-4172-A33C-5578FF9CB9A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

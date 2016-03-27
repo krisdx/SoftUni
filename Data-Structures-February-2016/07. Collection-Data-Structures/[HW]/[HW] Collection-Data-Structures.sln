@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Products-In-Price-Range", "01. Products-In-Price-Range\01. Products-In-Price-Range.csproj", "{08896181-CE72-4FE2-87C9-F4F4CC27F239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. String-Editor", "02. String-Editor\02. String-Editor.csproj", "{145CE003-BDBD-46B6-B2E5-AD130240B53D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08896181-CE72-4FE2-87C9-F4F4CC27F239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08896181-CE72-4FE2-87C9-F4F4CC27F239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08896181-CE72-4FE2-87C9-F4F4CC27F239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08896181-CE72-4FE2-87C9-F4F4CC27F239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{145CE003-BDBD-46B6-B2E5-AD130240B53D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{145CE003-BDBD-46B6-B2E5-AD130240B53D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{145CE003-BDBD-46B6-B2E5-AD130240B53D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{145CE003-BDBD-46B6-B2E5-AD130240B53D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
