@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Permutations-Iterative", "02. Permutations-Iterative\02. Permutations-Iterative.csproj", "{F5E3DDC3-51CE-4E64-8F79-F7453E58162F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Subset-Of-String-Array", "04. Subset-Of-String-Array\04. Subset-Of-String-Array.csproj", "{47EC1C1A-EAF7-4C96-B739-30D5AE57998F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Permutations-Recursive", "01. Permutations-Recursive\01. Permutations-Recursive.csproj", "{2E81AC2C-4B2B-40D7-8D83-CAC057FE7A7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5E3DDC3-51CE-4E64-8F79-F7453E58162F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5E3DDC3-51CE-4E64-8F79-F7453E58162F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5E3DDC3-51CE-4E64-8F79-F7453E58162F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5E3DDC3-51CE-4E64-8F79-F7453E58162F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47EC1C1A-EAF7-4C96-B739-30D5AE57998F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47EC1C1A-EAF7-4C96-B739-30D5AE57998F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47EC1C1A-EAF7-4C96-B739-30D5AE57998F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47EC1C1A-EAF7-4C96-B739-30D5AE57998F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E81AC2C-4B2B-40D7-8D83-CAC057FE7A7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E81AC2C-4B2B-40D7-8D83-CAC057FE7A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E81AC2C-4B2B-40D7-8D83-CAC057FE7A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E81AC2C-4B2B-40D7-8D83-CAC057FE7A7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
