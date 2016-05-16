@@ -1,71 +1,46 @@
 ﻿namespace PermutationsIterative
 {
     using System;
+    using System.Collections.Generic;
+    using System.Linq;
 
     public class PermutationsIterative
     {
         public static void Main()
         {
-            int n = int.Parse(Console.ReadLine());
-            int[] numbers = InitializeArray(n);
-            
-            long nFactorial = GetNFactorial(n);
+            int n =  int.Parse(Console.ReadLine());
+            var numbers = Enumerable.Range(1, n).ToList();
 
-            int firstIndex = 0;
-            int secondIndex = firstIndex + 1;
-            int permutationsCount = 0;
-            while (permutationsCount < nFactorial)
+            var permutations = GeneratePermutations<int>(numbers);
+            foreach (var permutation in permutations)
             {
-                Swap(ref numbers[firstIndex], ref numbers[secondIndex]);
-                Print(numbers);
-                permutationsCount++;
+                Console.WriteLine(string.Join(" ", permutation));
+            }
+        }
 
-                firstIndex++;
-                secondIndex++;
-                if (secondIndex >= n)
+        private static List<List<T>> GeneratePermutations<T>(List<T> source)
+        {
+            var permutations = new List<List<T>>();
+            permutations.Add(new List<T>() { source[0] });
+            for (int i = 1; i < source.Count; i++)
+            {
+                var currentElement = source[i];
+                for (int j = permutations.Count - 1; j >= 0; j--)
                 {
-                    firstIndex = 0;
-                    secondIndex = 1;
+                    var currentPermutation = permutations[j];
+                    permutations.RemoveAt(j);
+
+                    for (int insertIndex = currentPermutation.Count; insertIndex >= 0; insertIndex--)
+                    {
+                        var newPermutation = new List<T>(currentPermutation);
+                        newPermutation.Insert(insertIndex, currentElement);
+
+                        permutations.Add(newPermutation);
+                    }
                 }
             }
 
-            Console.WriteLine("Total permutations: " + permutationsCount);
-        }
-
-        private static int[] InitializeArray(int n)
-        {
-            int[] arr = new int[n];
-            int num = 1;
-            for (int i = 0; i < n; i++)
-            {
-                arr[i] = num;
-                num++;
-            }
-
-            return arr;
-        }
-
-        private static void Swap(ref int firstNum, ref int secondNum)
-        {
-            var swapValue = firstNum;
-            firstNum = secondNum;
-            secondNum = swapValue;
-        }
-
-        private static long GetNFactorial(int n)
-        {
-            long result = 1;
-            for (int i = n; i >= 1; i--)
-            {
-                result *= i;
-            }
-
-            return result;
-        }
-
-        private static void Print(int[] numbers)
-        {
-            Console.WriteLine(string.Join("", numbers));
+            return permutations;
         }
     }
 }

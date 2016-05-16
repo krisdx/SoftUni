@@ -15,23 +15,6 @@
             Console.WriteLine("Total permutations: " + permutationsCount);
         }
 
-        private static void Permute(int[] numbers, int startIndex = 0)
-        {
-            if (startIndex >= numbers.Length)
-            {
-                permutationsCount++;
-                Print(numbers);
-                return;
-            }
-
-            for (int currentIndex = startIndex; currentIndex < numbers.Length; currentIndex++)
-            {
-                Swap(ref numbers[startIndex], ref numbers[currentIndex]);
-                Permute(numbers, startIndex + 1);
-                Swap(ref numbers[startIndex], ref numbers[currentIndex]);
-            }
-        }
-
         private static int[] FillInitialArray(int n)
         {
             int[] arr = new int[n];
@@ -46,6 +29,23 @@
             return arr;
         }
 
+        private static void Permute(int[] numbers, int startIndex = 0)
+        {
+            if (startIndex >= numbers.Length)
+            {
+                Print(numbers);
+                permutationsCount++;
+                return;
+            }
+
+            for (int currentIndex = startIndex; currentIndex < numbers.Length; currentIndex++)
+            {
+                Swap(ref numbers[startIndex], ref numbers[currentIndex]);
+                Permute(numbers, startIndex + 1);
+                Swap(ref numbers[startIndex], ref numbers[currentIndex]);
+            }
+        }
+
         private static void Swap(ref int firstNum, ref int secondNum)
         {
             var swapValue = firstNum;
@@ -55,7 +55,7 @@
 
         private static void Print(int[] arr)
         {
-            Console.WriteLine(  string.Join("", arr));
+            Console.WriteLine(string.Join("", arr));
         }
     }
 }
