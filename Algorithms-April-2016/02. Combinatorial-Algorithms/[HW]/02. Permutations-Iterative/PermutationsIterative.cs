@@ -8,7 +8,7 @@
     {
         public static void Main()
         {
-            int n =  int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine());
             var numbers = Enumerable.Range(1, n).ToList();
 
             var permutations = GeneratePermutations<int>(numbers);
