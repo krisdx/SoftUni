@@ -1,0 +1,24 @@
+﻿.left, .right, .center {
+    background: CornflowerBlue;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.left {
+    float: left;
+    margin-right: 10px;
+}
+
+.right {
+    float: right;
+    margin-left: 10px;
+}
+
+.center {
+    float: none;
+    margin: auto;
+}
