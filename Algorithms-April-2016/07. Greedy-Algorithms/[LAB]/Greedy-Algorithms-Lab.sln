@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfCoins", "SumOfCoins\SumOfCoins.csproj", "{95A350A1-AB7A-4646-A9F5-37CE8615E677}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfCoins.Tests", "SumOfCoins.Tests\SumOfCoins.Tests.csproj", "{C8474C3B-167B-4059-BF11-AF8EC390BE78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetCover.Tests", "SetCover.Tests\SetCover.Tests.csproj", "{9F271BB7-44F6-4B49-8973-A387861B99B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetCover", "SetCover\SetCover.csproj", "{9C57C48B-15DA-4AD0-88A0-95B122769BD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AStarAlgorithm", "AStarAlgorithm\AStarAlgorithm.csproj", "{3C5FAA68-E4C4-472E-8665-5906070DC376}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AStarAlgorithm.Tests", "AStarAlgorithm.Tests\AStarAlgorithm.Tests.csproj", "{4981716F-24D1-41EA-9993-0760B752FB9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95A350A1-AB7A-4646-A9F5-37CE8615E677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A350A1-AB7A-4646-A9F5-37CE8615E677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A350A1-AB7A-4646-A9F5-37CE8615E677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A350A1-AB7A-4646-A9F5-37CE8615E677}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8474C3B-167B-4059-BF11-AF8EC390BE78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8474C3B-167B-4059-BF11-AF8EC390BE78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8474C3B-167B-4059-BF11-AF8EC390BE78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8474C3B-167B-4059-BF11-AF8EC390BE78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F271BB7-44F6-4B49-8973-A387861B99B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F271BB7-44F6-4B49-8973-A387861B99B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F271BB7-44F6-4B49-8973-A387861B99B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F271BB7-44F6-4B49-8973-A387861B99B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C57C48B-15DA-4AD0-88A0-95B122769BD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C57C48B-15DA-4AD0-88A0-95B122769BD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C57C48B-15DA-4AD0-88A0-95B122769BD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C57C48B-15DA-4AD0-88A0-95B122769BD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C5FAA68-E4C4-472E-8665-5906070DC376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C5FAA68-E4C4-472E-8665-5906070DC376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C5FAA68-E4C4-472E-8665-5906070DC376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C5FAA68-E4C4-472E-8665-5906070DC376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4981716F-24D1-41EA-9993-0760B752FB9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4981716F-24D1-41EA-9993-0760B752FB9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4981716F-24D1-41EA-9993-0760B752FB9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4981716F-24D1-41EA-9993-0760B752FB9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
