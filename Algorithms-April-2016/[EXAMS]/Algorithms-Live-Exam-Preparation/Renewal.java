@@ -1,5 +1,3 @@
-package Algorithms_Live_Exam_Preparation;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

@@ -1,5 +1,3 @@
-package Algorithms_Live_Exam_Preparation;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
