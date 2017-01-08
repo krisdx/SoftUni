@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: white;
+    background: #3c5a98;
+}
+
+main > header {
+    text-align: center;
+}
+
+main > header h1 {
+    font-size: 4em;
+}
+
+main > header #registered-trademark {
+    padding-left: 5px;
+    font-size: 0.3em;
+}
+
+main > header > h2 {
+    font-size: 2em;    
+}
+
+main > header > h2 #sub-title {
+    font-size: 0.6em;    
+    padding-top: 20px;
+}
+
+form, fieldset {
+    border-radius: 15px;
+}
+
+input {
+    margin-top: 0.2em;
+}
+
+form fieldset legend {
+    font-size: 1.2em;
+}
+
+input textarea, label {
+    font-size: 0.9em;
+}
+
+input[type="text"], input[type="password"], input[type="email"], select {
+    width: 49%;
+}
+
+input[type="date"] {
+    width: 60%;
+}
+
+input[type="color"] {
+    height: 30px;
+}
+
+#birth-date-container, #gender-container {
+    margin-top: 0.5em;
+}
+
+#none-importnant-information-wrapper {
+    float: left;
+    width: 40%;
+    margin-left: 3%;
+}
+
+#important-information-wrapper {
+    float: right;
+    width: 50%;
+    margin-right: 3%;
+}
+
+#important-information-wrapper input, #important-information-wrapper select {
+    width: 24%;
+}
+
+#important-information-wrapper textarea {
+    width: 100%;
+}
+
+#clear {
+    background: lightgray;
+    border-radius: 10px;
+    font-size: 1.2em;
+    margin-top: 30px;
+    width: 100%;
+    height: 45px;
+}
+
+#register {
+    background: lightgray;
+    border-radius: 10px;
+    font-size: 1.2em;
+    margin-top: 30px;
+    width: 900px;
+    height: 50px;
+}

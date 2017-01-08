@@ -1,0 +1,31 @@
+body {
+    background: url("Slide-Background.png") no-repeat;
+    background-size: cover;
+
+    color: white;
+    font-size: 135%
+}
+
+h1 {
+    color: gold;
+    margin-left: 2%;
+}
+
+.tagTitle {
+    margin-left: 4%;
+}
+
+.sampleCode {
+    width: 800px;
+    height: 80%;
+    border: 1px solid grey;
+    margin-top: 1%;
+}
+
+.tag {
+    color: gold;
+}
+
+.tab {
+    margin-left: 5%;
+}

@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    padding: 20px;
+}
+
+#wrapper > header > img {
+    width: 450px;
+    height: 100px;
+}
+
+fieldset {
+    border: none;
+}
+
+form {
+    padding-top: 20px;
+}
+
+#wrapper fieldset img {
+    padding-right: 30px;
+    height: 40px;
+}

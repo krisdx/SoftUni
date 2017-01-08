@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fakebook Register Form</title>
+    <link type="text/css" rel="stylesheet" href="sheets.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>
+                Fakebook<span id="registered-trademark">&reg;</span>
+            </h1>
+            <h2>
+                Registration
+                <div id="sub-title">It is safe and it will always be!</div>
+            </h2>
+        </header>
+
+        <div id="none-importnant-information-wrapper">
+            <form action="#" method="post">
+                <fieldset>
+                    <legend align="center">None-Importnant Information</legend>
+
+                    <input type="text" name="first-name" placeholder="First Name">
+                    <input type="text" name="last-name" placeholder="Last Name">
+                    <input type="email" name="email" placeholder="Your Email">
+                    <input type="text" name="phone-number" placeholder="Phone Number">
+                    <input type="password" name="password" placeholder="Password">
+                    <input type="text" name="website" placeholder="Website">
+                    <div id="birth-date-container">
+                        <label for="birth-date">Birthday</label>
+                        <br>
+                        <input type="date" id="birth-date">
+                    </div> 
+                    <div id="gender-container">
+                        <input type="radio" name="gender" id="male" value="male">
+                        <label for="male">Male</label>
+                        
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="female">Female</label>
+                        
+                        <input type="radio" name="gender" id="other" value="other">
+                        <label for="other">Other</label>
+                    </div>
+                </fieldset>
+                <input type="reset" id="clear" name="clear" value="Clear Form">
+            </form>       
+        </div>
+
+        <div id="important-information-wrapper">
+            <form action="#" method="post">
+                <fieldset>
+                    <legend align="center">Important Information *required</legend>
+
+                    <select required>
+                        <option disabled selected value>Country</option>
+                        <option value="UK">UK</option>
+                        <option value="USA">USA</option>
+                        <option value="China">China</option>
+                        <option value="Russia">Russia</option>
+                    </select>
+                    <input type="text" name="village" placeholder="Village" required>
+                    <input type="text" name="district" placeholder="District" required>
+                    <input type="text" name="street" placeholder="Street" required>
+                    <input type="text" name="nr" placeholder="Nr" required>
+                    <input type="text" name="floor" placeholder="Floor" required>
+                    <input type="text" name="ap nr" placeholder="Ap Nr" required>
+                    <br>
+                    <label for="door-color">Door color</label>
+                    <br>
+                    <span id="door-color-container">
+                        <input type="color" name="door-color" id="door-color">
+                    </span>
+                    <input type="text" name="water-meter-nr" placeholder="Water Meter Nr" required>
+                    <select name="aunt-panties-size">
+                        <option disabled selected value>Aunt Panties'Size</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+                    <br>
+                    <label>More Personal Inforamtion</label>
+                    <br>
+                    <textarea placeholder="Give Us More Inforamtion!!!"></textarea>
+                </fieldset>
+                <input type="submit" id="register" name="register" value="Register">
+            </form> 
+        </div>
+    </main>
+</body>
+</html>     

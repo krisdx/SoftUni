@@ -1,0 +1,9 @@
+table, th, tr, td, img {
+    font-family: Verdana, serif;
+    border: 2px solid black;
+    margin: 8px;
+}
+
+.description {
+    font-size: 60px;
+}

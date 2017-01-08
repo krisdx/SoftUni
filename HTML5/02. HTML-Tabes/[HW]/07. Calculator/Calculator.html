@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link type="text/css" rel="stylesheet" href="Calculator.css">
+    <script>
+        var expression = '';
+
+        function calc(buttonId) {
+            var displayField = document.getElementById('displayField');
+            var button = document.getElementById(buttonId).value;
+
+            if (buttonId != 'equals' && buttonId != 'clear') {
+                if (displayField.value == 'Wrong Expression') {
+                    displayField.value = '';
+                }
+
+                expression += button;
+                displayField.value = expression;
+            } else if (buttonId == 'clear') {
+                expression = '';
+                displayField.value = expression;
+            } else if (buttonId == 'equals'){
+                try {
+                    displayField.value = eval(expression);
+                    expression = displayField.value;
+                } catch (e) {
+                    expression = '';
+                    displayField.value = 'Wrong Expression';
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="4">
+                <label>
+                    <input id="displayField" type="text"/>
+                </label> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" id="1" value="1" onclick="calc(this.id)">
+            </td>
+            <td>
+                <input type="button" id="2" value="2" onclick="calc(this.id)">
+            </td>
+            <td>
+                <input type="button" id="3" value="3" onclick="calc(this.id)">
+            </td>
+            <td>
+                <input type="button" id="plus" value="+" onclick="calc(this.id)">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" id="4" value="4" onclick="calc(this.id)">
+            </td>
+            <td>
+                <input type="button" id="5" value="5" onclick="calc(this.id)">
+            </td>
+            <td>
+                <input type="button" id="6" value="6" onclick="calc(this.id)">
+            </td>
+            <td>
+                <input type="button" id="minus" value="-" onclick="calc(this.id)">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" id="7" value="7" onclick="calc(this.id)">
+            </td>
+            <td>
+                <input type="button" id="8" value="8" onclick="calc(this.id)">
+            </td>
+            <td>
+                <input type="button" id="9" value="9" onclick="calc(this.id)">
+            </td>
+            <td>
+                <input type="button" id="multiply" value="*" onclick="calc(this.id)">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" id="clear" value="C" onclick="calc(this.id)">
+            </td>
+            <td>
+                <input type="button" id="zero" value="0" onclick="calc(this.id)">
+            </td>
+            <td>
+                <input type="button" id="equals" value="=" onclick="calc(this.id)">
+            </td>
+            <td>
+                <input type="button" id="divide" value="/" onclick="calc(this.id)">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

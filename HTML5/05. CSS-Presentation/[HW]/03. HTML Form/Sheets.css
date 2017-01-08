@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 50%;
+    height: 923px;
+    margin: 5px auto;
+    padding: 25px;
+    color: white;
+    background: url("img/background.jpg") no-repeat;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+fieldset {
+    border: none;
+    margin-top: 20px;  
+}
+
+fieldset > legend {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+label {
+    color: black;
+    font-size: 20px;
+    display: inline-block;
+}
+
+form fieldset div {
+    width: 90%;
+    margin: 5px auto;
+    padding: 10px 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+fieldset div {
+    height: 30px;
+}
+
+#textarea-container {
+    height: 100px;
+}
+
+#card-type-container {
+    height: 80px;
+}
+
+input[type="text"], input[type="email"] {
+    width: 70%;
+    height: 60%;
+    padding: 5px;
+    margin-left: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+textarea {
+    width: 73%;
+    height: 90%;
+    border-radius: 5px;
+    margin-left: 30px;
+    resize: none;
+}
+
+#textarea-label {
+    vertical-align: top;
+}
+
+#post-code {
+    margin-left: 40px;
+}
+
+#card-type-container > legend {
+    color: black;
+    font-size: 20px;
+}
+
+input[type="radio"] {
+    margin-left: 25px;
+}
+
+#buy {
+    font-size: 20px;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 390px;
+    width: 150px;
+    height: 50px;
+}
+
+#buy:hover {
+    background: lightskyblue;
+    cursor: pointer;
+}

@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#sky {
+    width: 900px;
+    height: 330px;
+    background: radial-gradient(ellipse at top left, #1e5799 0%,#ffffff 0%,#ffffff 27%,#207cca 50%,#0060db 100%);
+}
+
+#beach {
+    width: 900px;
+    height: 600px;
+    background-image: url('Images/Hawaii-Background.png');
+}
+
+@font-face {
+    font-family: Custom-Font;
+    src: url('Fonts/Animated.ttf');
+}
+
+#header {
+    position: absolute;
+    color: #FAA770;
+    font-size: 52px;
+    text-align: right;
+    padding-top: 10px;
+    margin-left: 450px;
+    font-family: Custom-Font, sans-serif;
+}
+
+#vlado-g-hula {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+
+#petia-hula {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+#tedi-hula {
+    position: absolute;
+    top: 350px;
+    left: 300px;
+}
+
+#nakov-hula {
+    position: absolute;
+    top: 150px;
+    left: 450px;
+}
+
+#alex-hula {
+    position: absolute;
+    top: 200px;
+    left: 520px;
+}
+
+#vlado-k-hula {
+    position: absolute;
+    top: 240px;
+    left: 680px;
+}

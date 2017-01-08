@@ -1,0 +1,151 @@
+<!DOCTYPE <html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flight Order</title>
+    <link type="text/css" rel="stylesheet" href="sheets.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Flight Order</h1>
+        </header>
+
+        <form>
+            <fieldset>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="from-city">From</label>
+                        </td>
+                        <td>
+                            <label for="to-city">To</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select id="from-city" name="source-city">
+                                <option value="none">Enter a city</option>
+                                <option value="sofia-city">Sofia</option>
+                                <option value="burgas-city">Burgas</option>
+                                <option value="varna-city">Varna</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select id="to-city" name="destination-city">
+                                <option value="none">Enter a city</option>
+                                <option value="sofia-city">Sofia</option>
+                                <option value="burgas-city">Burgas</option>
+                                <option value="varna-city">Varna</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <div class="checkbox-wrapper">
+                                <input type="checkbox" id="prefer-directs">
+                                <label for="prefer-directs">Prefer Directs</label> 
+                            </div>
+                        </td>
+                    </tr>
+                </table>                    
+            </fieldset>
+
+            <fieldset>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="departure-date">Departure Date</label>
+                        </td>
+                        <td colspan="2">
+                            <label>Time Interval</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="date" id="departure-date" value="09.06.2014">
+                        </td>
+                        <td>
+                            <input type="time" value="00:20">
+                        </td>
+                        <td>                       
+                            <input type="time" value="05:00"> 
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="return-date">Return Date</label>
+                        </td>
+                        <td colspan="2">
+                            <label>Time Interval</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="date" id="return-date" value="13.06.2014">
+                        </td>
+                        <td>
+                            <input type="time" value="16:00">
+                        </td>
+                        <td>                       
+                            <input type="time" value="22:00"> 
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset>
+                <table>
+                    <tr>
+                        <td>
+                            <label>12+</label>
+                        </td>
+                        <td>
+                            <label>2-12</label>
+                        </td>
+                        <td>
+                            <label>0-2</label>
+                        </td>
+                        <td>
+                            <label>Choose class</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="number" min="12" max="50" value="0">
+                        </td>
+                        <td>
+                            <input type="number" min="2" max="12" value="0">
+                        </td>
+                        <td>
+                            <input type="number" min="0" max="2" value="0">
+                        </td>
+                        <td>
+                            <select name="class" id="class">
+                                <option value="economy">Economy</option>
+                                <option value="premium-economy">Premium economy</option>
+                                <option value="business">Business</option>
+                                <option value="first">First</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button name="search" id="search">Search</button>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

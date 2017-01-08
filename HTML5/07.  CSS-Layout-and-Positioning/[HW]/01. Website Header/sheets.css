@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #b0cbe5;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+#header-wrapper {
+    background-color: #234465;
+    height: 100px;
+}
+
+#header-wrapper div, #nav-wrapper ul li {
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#nav-wrapper {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+nav ul {
+    position: absolute;
+    top: 40px;
+}
+
+#search {
+    position: absolute;
+    right: 200px;
+    top: 30px;
+}
+
+#profile-picture {
+    position: absolute; 
+    right: 140px;
+    top: 35px;
+}
+
+#search:hover, #brand-logo, #profile-picture {
+    cursor: pointer;
+}   
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}

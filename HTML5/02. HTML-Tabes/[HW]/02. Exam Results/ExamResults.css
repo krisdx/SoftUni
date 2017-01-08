@@ -1,0 +1,15 @@
+body {
+    font-family: Verdana, serif;
+}
+
+thead {
+    font-size: 30px;
+}
+
+table, thead, tbody, tfoot, th, tr, td {
+    border: 2px solid;
+}
+
+tfoot {
+    text-align: right;
+}

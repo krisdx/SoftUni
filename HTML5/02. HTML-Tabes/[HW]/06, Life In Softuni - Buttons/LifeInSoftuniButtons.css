@@ -1,0 +1,102 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, serif;
+    font-size: 20px;
+}
+
+table, tr, th, td {
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+}
+
+button {
+    color: blue;
+    margin: 2px;
+}
+
+button:hover {
+    color: orange;
+}
+
+span {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+#headButton {
+    width: 405px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#googleButton {
+    width: 195px;
+    height: 50px;
+}
+
+#githubButton {
+    width: 205px;
+    height: 50px;
+}
+
+#facebookButton {
+    width: 90px;
+    height: 50px;
+}
+
+#gmailButton {
+    width: 102px;
+    height: 50px;
+}
+
+#youtubeButton {
+    width: 103px;
+    height: 50px;
+}
+
+#button2048 {
+    width: 100px;
+    height: 50px;
+}
+
+#foodButton {
+    width: 90px;
+    height: 60px;
+}
+
+#gameButton {
+    width: 208px;
+    height: 60px;
+}
+
+#socialLifeButton {
+    width: 97px;
+    height: 26px;
+    font-size: 10px;
+}
+
+#sleepButton {
+    width: 97px;
+    height: 26px;
+    font-size: 10px;
+}
+
+#beerButton {
+    text-align: right;
+    font-size: 20px;
+    width: 303px;
+    height: 50px;
+}
+
+#wcButton {
+    width: 100px;
+    height: 50px;
+}

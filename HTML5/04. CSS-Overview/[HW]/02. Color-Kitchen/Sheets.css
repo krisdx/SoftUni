@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, serif;
+    font-size: 20px;
+    background-image: url("Colorful-Dots.jpg");
+}
+
+body > header {
+    background: linear-gradient(to right, red 33%, green 33%, green 66%, blue 33%);
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    color: #ffff00;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #ffffff;
+    /*display: inline-block;*/
+    float: left;
+    width: 12em;
+    margin: 1em 1em;
+    padding: 1em;
+    border-radius: 1.5em;
+    opacity: 0.9;
+}
+
+nav > header {
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+nav > ul > li {
+    margin-left: -1.5em;
+    margin-bottom: 0.8em;
+    list-style-type: none;
+    background: url('Ckeck.png') no-repeat;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+    margin-left: 1.8em;
+}
+
+article {
+    margin: 1em 2em 1em 16em;
+    padding: 1em;
+    background-color: white;
+    border-radius: 1em;
+    opacity: 0.9;
+}
+
+article header {
+    text-align: left;
+    font-size: 1.5em;
+    line-height: 2em;
+    border-radius: 0.5em;
+    padding-left: 0.8em;
+}
+
+article div {
+    padding-top: 1em;
+    opacity: 0.9;
+}
+
+article div:first-letter {
+    font-size: 3em;
+    font-style: italic;
+}
+
+article div:first-line {
+    font-style: italic;
+}
+
+article footer {
+    padding-top: 0.5em;
+}
+
+article footer a {
+     color:darkgrey;
+     font-style: italic;
+}
+
+#webColors {
+    color:white;
+    background: #ff0000;
+}
+
+#webSafeColors {
+    color: black;
+    background: orange;
+}
+
+#RGB {
+    color: black;
+    background-color: yellow;
+}
+
+#RGBA {
+    color: white;
+    background-color: green;
+}
+
+#HSLHSV {
+    color: white;
+    background-color: blue;
+}
+
+#lorem {
+     color:white;
+     background: #800080;
+}
+
+nav ul li:nth-child(1):hover{
+    border-radius: 0.5em;
+    width: 11em;
+    height: 1.2em;
+    padding: 2px;
+    background: red url('Ckeck.png') no-repeat;
+}
+
+nav ul li:nth-child(2):hover{
+    border-radius: 0.5em;
+    width: 11em;
+    height: 1.2em;
+    padding: 2px;
+    background: orange url('Ckeck.png') no-repeat;
+}
+
+nav ul li:nth-child(3):hover{
+    border-radius: 0.5em;
+    width: 11em;
+    height: 1.2em;
+    padding: 2px;
+    background: yellow url('Ckeck.png') no-repeat;
+}
+
+nav ul li:nth-child(4):hover{
+    border-radius: 0.5em;
+    width: 11em;
+    height: 1.2em;
+    padding: 2px;
+    background: green url('Ckeck.png') no-repeat;
+}
+
+nav ul li:nth-child(5):hover{
+    border-radius: 0.5em;
+    width: 11em;
+    height: 1.2em;
+    padding: 2px;
+    background: blue url('Ckeck.png') no-repeat;
+}
+
+nav ul li:nth-child(6):hover{
+    border-radius: 0.5em;
+    width: 11em;
+    height: 1.2em;
+    padding: 2px;
+    background: #800080 url('Ckeck.png') no-repeat;
+}

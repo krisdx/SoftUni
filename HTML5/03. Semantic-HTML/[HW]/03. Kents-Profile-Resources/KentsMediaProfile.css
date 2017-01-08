@@ -1,0 +1,15 @@
+body {
+    background-color: pink;
+}
+
+img {
+    width: 290px;
+}
+
+section {
+    display: inline-block;
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 2px;
+}

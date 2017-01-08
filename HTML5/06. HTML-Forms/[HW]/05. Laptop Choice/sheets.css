@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper > div {
+    display: inline-block;
+}
+
+#wrapper header {
+    width: 20%;
+}
+
+#wrapper > header > h1 {
+    padding-left: 20px;
+}
+
+#apple-laptops {
+    display: inline-block;
+    width: 30%;
+}
+
+#apple-laptops input[type=image] {
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    padding: 10px 0 10px 20px;
+}
+
+#sidebar {
+    width: 18%;
+}
+
+.parameter-container {
+    background-color: #f8fbff;
+    font-size: 110%;
+}
+
+.left-inline {
+    display: inline-block;
+}
+
+.right-inline {
+     float: right;
+}
+
+.parameter {
+    font-size: 130%;
+    text-align: center;
+}
+
+#sidebar input[type="range"] {
+    width: 100%;
+    height: 50%;
+}
