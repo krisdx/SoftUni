@@ -1,0 +1,16 @@
+input[type="text"], button {
+    margin-top: 15px;
+}
+
+.btn-info {
+    background-color: #0275D8;
+}
+
+.btn-primary {
+    background-color: #014C8C;
+}
+
+.glyphicon {
+    font-size: 10px;
+    display: block; 
+}

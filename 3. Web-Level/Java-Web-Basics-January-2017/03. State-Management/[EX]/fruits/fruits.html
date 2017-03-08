@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fruits</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link type="text/css"" rel="stylesheet" href="my-style.css"">
+    <script>
+        function closeAlert() {
+            let alert = document.getElementById('alert');
+            $(alert).fadeOut("slow");
+        }
+    </script>
+</head>
+</head>
+<body>
+   <div class="container-fluid">
+       <div class="row">
+           <aside>
+               <div class="col-sm-3">
+                    <h3>Favorites</h3>
+                    <ul class="nav ">
+                        <li><a href="#" class="nav-link active">Watermelon</a></li>
+                        <li><a href="#" class="nav-link">Apple</a></li>
+                        <li><a href="#" class="nav-link">Salads</a></li>
+                    </ul>
+                    <br>
+                    <form class="form-horizontal" method="GET">
+                            <input  type="text" name="searched-friut" class="form-control">
+                            <br>    
+                            <button class="btn btn-info" type="submit">Search Fruits</button>
+                    </form>
+                </div>
+                <div class="col-sm-9">
+                    <div id="alert" class="alert alert-warning alert-dismissable">
+                        <button type="button" class="close" onclick="closeAlert()">&times;</button>
+                        <strong>Uh oh!</strong> Have you eaten a fruit today?
+                    </div>
+                    <h2>Fresh Fruits &amp; Salads</h2>
+                    <blockquote>
+                        <p>The best fruits and salads can be found here.</p>
+                        <small>G. Ramsey</small>
+                    </blockquote>          
+                    <h3>Nutrition Info</h3>          
+                    <table class="table table-responsive table-striped table-bordered table-hover">
+                        <tr>
+                            <th>Fruit</th>
+                            <th>Vitamins</th>
+                        </tr>
+                        <tr>
+                            <td>Banana</td>
+                            <td>A, C, B6</td>
+                        </tr>
+                        <tr>
+                            <td>Watermelon</td>
+                            <td>A, C</td>
+                        </tr>
+                        <tr>
+                            <td>Apple</td>
+                            <td>A, C</td>
+                        </tr>
+                    </table>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nunc orci, blandit non magna ac, tincidunt vehicula nibh. 
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nunc orci, blandit non magna ac, tincidunt vehicula nibh. 
+                        Praesent at est pulvinar, dapibus est sit amet, consectetur odio.
+                        Suspendisse tortor sapien, sodales ut lacus eu, tempus rutrum justo. Quisque at magna non urna sagittis tempus. 
+                        Donec sit amet lectus sit amet eros interdum congue. Suspendisse facilisis pellentesque ex, a tincidunt libero interdum non. 
+                        Integer porta auctor gravida. 
+                    </p>
+                    <div class="card">
+                        <img class="card-img-top" src="https://3.imimg.com/data3/WO/MA/MY-15025450/banana-250x250.jpg" alt="Banana">
+                        <div class="card-block">
+                            <h4 class="card-title">Banana</h4>
+                            <p class="card-text">Grab them.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="http://cdn.agilitycms.com/naturally-savvy/Images/Legacy/stories-watermelon250x200.jpg" alt="Watermelon">
+                        <div class="card-block">
+                            <h4 class="card-title">Watermelon</h4>
+                            <p class="card-text">Cool and fresh.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="http://gaaco.ae/wp-content/gallery/fruit-products/Imported-Green-Apple.png" alt="Apple">
+                        <div class="card-block">
+                            <h4 class="card-title">Apple</h4>
+                            <p class="card-text">Juicy.</p>
+                        </div>
+                    </div>
+                </div>
+           </aside>
+       </div>
+   </div>
+</body>
+</html>

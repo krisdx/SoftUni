@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Send Email</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h2>Hello suAdmin!</h2>
+
+    <form action="login.cgi" method="GET">
+        <button type="submit">Log Out</button>
+    </form>
+
+    <br>
+    <form action="email_ckeck.cgi" method="POST">
+        <label for="to">To:</label>
+        <input type="email" id="to" name="to" placeholder="Email">
+        <br>
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" id="subject" name="subject" placeholder="Subject">
+        <br>
+        <label for="messgae">Message:</label>
+        <textarea rows="8" cols="30" id="message" name="message" placeholder="Message..."></textarea>
+        <br>
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>

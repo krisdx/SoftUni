@@ -1,0 +1,25 @@
+body {
+    padding-top: 2px;
+}
+
+ul.nav li a.nav-link {
+    color: #82CCF4;
+}
+
+ul.nav li a.nav-link:hover {
+    border-radius: 10px;
+    color: white;
+    background: #037BDA;
+}
+
+#alert {
+    color: #AD5864;
+    background-color: #F3E0E0; 
+    margin-top: 10px;
+}
+
+.card {
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 20px;
+}

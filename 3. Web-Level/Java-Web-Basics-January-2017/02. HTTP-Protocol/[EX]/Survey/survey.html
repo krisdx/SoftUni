@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Survey</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Survey</h1>
+        <hr>
+        <form action="survey_success.cgi" method="POST" class="form-horizontal">
+            <label for=""></label>
+            <div class="form-group form-group-lg">
+                <label class="control-label col-sm-2" for="first-name">First Name</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="first-name" name="first-name" placeholder="First Name" required>
+                </div>
+            </div>
+            <div class="form-group form-group-lg">
+                <label class="control-label col-sm-2" for="last-name">Last Name</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="last-name" name="last-name" placeholder="Last Name" required>
+                </div>
+            </div>
+            <div class="form-group form-group-lg">
+                <label class="control-label col-sm-2" for="birthdate">Birthdate</label>
+                <div class="col-sm-10">
+                    <input type="date" class="form-control" id="birthdate" name="birthdate" placeholder="Birthdate">
+                </div>
+            </div>
+            <div class="form-group form-group-lg">
+                <label for="gender" class="control-label col-sm-2">Gender</label>
+                <div class="radio col-sm-10">
+                    <label class="control-label">
+                        <input type="radio" name="gender" value="male" required>Male
+                    </label>
+                </div>
+                <div class="radio col-sm-10 col-sm-offset-2">
+                    <label class="control-label">
+                        <input type="radio" name="gender" value="female">Female
+                    </label>
+                </div>
+                <div class="radio col-sm-10 col-sm-offset-2">
+                    <label class="control-label">
+                        <input type="radio" name="gender" value="no-answer">Do not want to answer
+                    </label>
+                </div>
+            </div>
+            <div class="form-group form-group-lg">
+                <label class="control-label col-sm-2" for="status">Status</label>
+                <div class="col-sm-10">
+                    <select class="form-control" id="status" name="status">
+                        <option value="Student">Student</option>
+                        <option value="Part-time Employee">Part-time Employee</option>
+                        <option value="Full-time Employee">Full-time Employee</option>
+                        <option value="Unemployed">Unemployed</option>
+                        <option value="Do not want to answer">Do not want to answer</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group form-group-lg">
+                <label for="recommendations" class="control-label col-sm-2">Recomendations</label>
+                <div class="col-sm-10">
+                    <textarea id="recommendations" class="form-control" name="recommendations" rows="3"></textarea>
+                    <p class="help-block">Please tell us what are your recommendations for us and how to improve our product.</p>
+                </div>
+            </div>
+            <div class="form-group form-group-lg">
+                <label for="you-own" class="control-label col-sm-2">You Own:</label>
+                <div class="col-sm-10" id="you-own">
+                    <label for="laptop" class="checkbox-inline control-label">
+                        <input type="checkbox" id="laptop" name="you-own" value="laptop">Laptop
+                    </label>
+                    <label for="smart-phone" class="checkbox-inline control-label">
+                        <input type="checkbox" id="smart-phone" name="you-own" value="smart-phone">Smart Phone
+                    </label>
+                    <label for="mobile-phone" class="checkbox-inline control-label">
+                        <input type="checkbox" id="mobile-phone" name="you-own" value="mobile-phone">Mobile Phone
+                    </label>
+                    <label for="car" class="checkbox-inline control-label">
+                        <input type="checkbox" id="car" name="you-own" value="car">Car
+                    </label>
+                    <label for="bike" class="checkbox-inline control-label">
+                        <input type="checkbox" id="bike" name="you-own" value="bike">Bike
+                    </label>
+                </div>
+            </div>
+            <div class="form-group ">
+                <div class="col-sm-10 col-sm-offset-2">
+                    <button type="reset" class="btn btn-default btn-lg">Reset All fields</button>
+                    <button type="submit" class="btn btn-primary btn-lg">Send Servey</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
